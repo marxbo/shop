@@ -18,6 +18,7 @@
 
     <modules>
         <module>shop-basic</module>
+        <module>shop-service-api</module>
     </modules>
 
     <properties>
