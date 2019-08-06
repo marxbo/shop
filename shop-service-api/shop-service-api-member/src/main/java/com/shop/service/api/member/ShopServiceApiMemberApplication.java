@@ -1,22 +1,22 @@
-package com.shop.service.api.weixin;
+package com.shop.service.api.member;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * 微信接口服务启动类
+ * 会员接口服务启动类
  *
  * @author marxbo
  * @version 1.0
- * @date 2019/8/6 23:54
+ * @date 2019/8/7 0:03
  */
 @SpringBootApplication
 @EnableEurekaClient
-public class ShopServiceApiWeixinApplication {
+public class ShopServiceApiMemberApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ShopServiceApiWeixinApplication.class, args);
+        SpringApplication.run(ShopServiceApiMemberApplication.class, args);
     }
 
 }
