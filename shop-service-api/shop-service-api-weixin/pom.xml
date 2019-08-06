@@ -11,6 +11,6 @@
 
     <groupId>com.shop.service.api</groupId>
     <artifactId>shop-service-api-weixin</artifactId>
-
+    <version>1.0</version>
 
 </project>

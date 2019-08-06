@@ -11,6 +11,8 @@
 
     <groupId>com.shop</groupId>
     <artifactId>shop-common</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
 
 
 </project>

@@ -3,15 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>shop-service-api-member</artifactId>
-        <groupId>com.shop.service.api</groupId>
+        <groupId>com.shop</groupId>
+        <artifactId>shop-service-impl</artifactId>
         <version>1.0</version>
-        <relativePath>../../shop-service-api/shop-service-api-member/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.shop.service.impl</groupId>
     <artifactId>shop-service-impl-member</artifactId>
+    <version>1.0</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.shop.service.api</groupId>
+            <artifactId>shop-service-api-member</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

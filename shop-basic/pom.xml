@@ -9,8 +9,9 @@
         <version>1.0</version>
     </parent>
 
-    <groupId>com.shop.basic</groupId>
+    <groupId>com.shop</groupId>
     <artifactId>shop-basic</artifactId>
+    <version>1.0</version>
     <packaging>pom</packaging> <!-- POM工程：实现依赖版本的统一管理 -->
 
     <modules>
